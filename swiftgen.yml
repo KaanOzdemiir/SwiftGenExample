@@ -1,0 +1,13 @@
+strings:
+  inputs: SwiftGenExample/Resources/Localizable/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: SwiftGenExample/SwiftGen/Strings.swift
+xcassets:
+  inputs:
+    - SwiftGenExample/Resources/Assets/Images.xcassets
+    - SwiftGenExample/Resources/Assets/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: SwiftGenExample/SwiftGen/Assets.swift
+
